@@ -28,7 +28,7 @@ pip install tkinter
 
   As you type these commands one by one, press Enter and it will start installing. It might take some time but once it is done, you are ready to run the model. 
 
-3. Download the data file in CSV (comma-separated) format to submit as input when asked while running the model. 
+3. Download the TCGA raw counts present in data file in CSV (comma-separated) format to submit as input when asked while running the model. 
 
 4. Open the script file in Spyder and click on run file to run the program. You will be asked to upload the data once the code starts running. Upload the downloaded data file and let the code run to completion.  
 
