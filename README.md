@@ -15,7 +15,7 @@ pip install os
 import os  
 os.chdir(path)   
 
-In the last command, in place of path, you can add the path of your directory. 
+  In the last command, in place of path, you can add the path of your directory. 
 
 2. After this, install the necessary libraries to run the model. These include rpy2, numpy, pandas, scipy.stats, warnings, keras and tkinter. The commands for this are:   
 pip install rpy2  
@@ -26,7 +26,7 @@ pip install warnings
 pip install keras  
 pip install tkinter  
 
-As you type these commands one by one, press Enter and it will start installing. It might take some time but once it is done, you are ready to run the model. 
+  As you type these commands one by one, press Enter and it will start installing. It might take some time but once it is done, you are ready to run the model. 
 
 3. Download the data file in CSV (comma-separated) format to submit as input when asked while running the model. 
 
