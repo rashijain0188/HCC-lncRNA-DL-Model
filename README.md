@@ -28,9 +28,11 @@ pip install tkinter
 
   As you type these commands one by one, press Enter and it will start installing. It might take some time but once it is done, you are ready to run the model. 
 
-3. Download the TCGA raw counts present in data file in CSV (comma-separated) format to submit as input when asked while running the model. 
+3. Download the .keras models in the chosen directory.  
 
-4. Open the script file in Spyder and click on run file to run the program. You will be asked to upload the data once the code starts running. Upload the downloaded data file and let the code run to completion.  
+4. Download the TCGA raw counts present in data file in CSV (comma-separated) format to submit as input when asked while running the model. 
 
-5. An output file Results.csv will automatically be downloaded in your directory. It can be opened in MS Excel or Google Sheets and the classification results can be interpreted for each Patient ID either as Normal or Tumor, Early or Advanced Tumor or AJCC Pathological Stage. 
+5. Open the script file in Spyder and click on run file to run the program. You will be asked to upload the data once the code starts running. Upload the downloaded data file and let the code run to completion.  
+
+6. An output file Results.csv will automatically be downloaded in your directory. It can be opened in MS Excel or Google Sheets and the classification results can be interpreted for each Patient ID either as Normal or Tumor, Early or Advanced Tumor or AJCC Pathological Stage. 
 
