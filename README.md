@@ -25,6 +25,7 @@ pip install scipy.stats
 pip install warnings  
 pip install keras  
 pip install tkinter  
+
 As you type these commands one by one, press Enter and it will start installing. It might take some time but once it is done, you are ready to run the model. 
 
 3. Download the data file in CSV (comma-separated) format to submit as input when asked while running the model. 
