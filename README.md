@@ -17,7 +17,7 @@ os.chdir(path)
 
 In the last command, in place of path, you can add the path of your directory. 
 
-2. After this, install the necessary libraries to run the model. These include rpy2, numpy,pandas, scipy.stats, warnings, keras and tkinter. The commands for this are:   
+2. After this, install the necessary libraries to run the model. These include rpy2, numpy, pandas, scipy.stats, warnings, keras and tkinter. The commands for this are:   
 pip install rpy2  
 pip install numpy  
 pip install pandas  
