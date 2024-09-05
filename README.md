@@ -10,21 +10,21 @@ This user manual contains the steps required to load and run the project in Pyth
 1. Installing Spyder 
 Any Python IDE can be used. Here the operation with Spyder is explained. Spyder IDE can be used online with https://mybinder.org/, installed using external distributor, e.g. Anaconda or stand-alone in your system. Refer to https://docs.spyder-ide.org/current/installation.html to install the latest version of Spyder as per your system. Create a new environment in conda as depicted in the HTML page.
 
-2. It is always recommended to set directory and download all files there for ease of use. This can be done by:
-pip install os
-import os
-os.chdir(path) 
+2. It is always recommended to set directory and download all files there for ease of use. This can be done by:  
+pip install os  
+import os  
+os.chdir(path)   
 
 In the last command, in place of path, you can add the path of your directory. 
 
-2. After this, install the necessary libraries to run the model. These include rpy2, numpy,pandas, scipy.stats, warnings, keras and tkinter. The commands for this are: 
-pip install rpy2
-pip install numpy
-pip install pandas
-pip install scipy.stats
-pip install warnings
-pip install keras
-pip install tkinter
+2. After this, install the necessary libraries to run the model. These include rpy2, numpy,pandas, scipy.stats, warnings, keras and tkinter. The commands for this are:   
+pip install rpy2  
+pip install numpy  
+pip install pandas  
+pip install scipy.stats  
+pip install warnings  
+pip install keras  
+pip install tkinter  
 As you type these commands one by one, press Enter and it will start installing. It might take some time but once it is done, you are ready to run the model. 
 
 3. Download the data file in CSV (comma-separated) format to submit as input when asked while running the model. 
