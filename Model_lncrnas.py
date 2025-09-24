@@ -102,7 +102,7 @@ def voom_transform(counts_df):
 df2= voom_transform(df)
 df3=df2.T
 
-NT_model = keras.models.load_model("NT3.keras")
+NT_model = keras.models.load_model("NT.keras")
 NT_model.summary()
 df4 = NT_model.predict(df3)
 df4 =np.argmax(df4, axis = 1)
@@ -131,7 +131,7 @@ df5 = df3[df4 == 1]
 print(df5)
 
 
-EA_model = keras.models.load_model("EA2.keras")
+EA_model = keras.models.load_model("EA.keras")
 df6 = EA_model.predict(df5)
 df6 =np.argmax(df6, axis = 1)
 mapping = {0: "Advanced", 1: "Early"}
@@ -152,7 +152,7 @@ print(results_df2)
 df7 = df5[df6 == 0]
 print(df7)
 
-stages_model = keras.models.load_model("stages7.keras")
+stages_model = keras.models.load_model("stages.keras")
 df8 = stages_model.predict(df7)
 df8 =np.argmax(df8, axis = 1)
 mapping = {0: "Stage II", 1: "Stage III", 2: "Stage IV"}
@@ -178,3 +178,4 @@ df_merged2 = pd.merge(df_merged, results_df3, left_index=True, right_index=True,
 print(df_merged2)
 
 df_merged2.to_csv('Results.csv', index=True)
+
